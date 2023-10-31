@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* imagen de fondo */
+.bg-image {
+    background-image: url('../images/banner-principal.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff; 
+    padding: 200px 0;
+}
+
+/* contenido dentro de la sección */
+.bg-image h2 {
+    font-size: 2rem;
+}
+
+.bg-image p {
+    font-size: 1.25rem;
+}
+
+.bg-image a.btn {
+    font-size: 1.25rem;
+}
+/* estilo del color del boton */
+.btn-custom {
+    background-color: #d21b82;
+    color: #fff; 
+    border-radius: 25px;
+    padding: 5px 35px;
+}
+
+.btn-rounded {
+    border-radius: 25px; 
+}
+
+.nav-pills .nav-link.active {
+    background-color: #d21b82;
+    color: #fff; 
+    border-radius: 25px;
+    padding: 5px 35px;
+}
+
+/* Estilos para el título "CONÓCENOS" */
+.subtitle {
+    color: #d21b82; 
+    font-size: 12px;
+    margin-bottom: 0
+}
+
+/* Estilos para el subtítulo "Quiénes somos" */
+h3.subtitle-text {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 28px; 
+    color: #160114;
+    margin-top: 3px;
+    
+}
+
+/* Estilos para el strong en el párrafo */
+p strong {
+    font-weight: bold; 
+    color: #160114;
+}
+
+/* Estilos para las section */
+
+.bg-custom {
+    background-color: #dad2d7;
+    padding: 20px; 
+    color: #160114;
+}
+
+.bg-customone {
+    background-color: #fff;
+    padding: 20px; 
+    color: #160114;
+}
+
+.list-group-numbered{
+    color: #d21b82;
+}
+
+
+.bg-customtwo {
+    background-color: #d21b82;
+    padding: 20px; 
+    color: #160114;
+}
+
+/* Estilos personalizados para la section de preguntas */
+
+.faq-section .accordion-item {
+    background-color: #fff;
+    
+}
+
+.faq-section .accordion-button {
+    background-color: #d21b82; 
+    color: #fff; 
+    font-weight: bold;
+}
+
+.faq-section .accordion-header {
+    background-color: #d21b82;
+    border-color: #fff;
+}
+
+.faq-section .accordion-body {
+    background-color: #fff;
+    color: #554e4e;
+}
+
+/* imagen de fondo de la otra section */
+.bg-image2 {
+    background-image: url('../images/banner-secundario.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff; 
+    padding: 200px 0;
+}
+
+.text-extra-large {
+    font-size: 2.5rem; 
+    color: #fff;
+}
+
+/*iconos de las redes*/
+.custom-icon {
+    color: #d21b82;
+    background-color: #fff ;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+/*estilos para term and cond-*/
+a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
